@@ -13,7 +13,7 @@ article{
     margin: 20px 15px 10px 15px;
     font-family:'Oswald', Arial;
     font-size:62px;
-    
+    position:relative;
 
 }
 
@@ -128,13 +128,15 @@ textarea{
 
 
 
+
+
 #lateral{
    
     background-color:aqua;
     
     height:95vh;
-    position:relative;
-    left:75%;
+    position:absolute;
+    right:0%;
     width:25%;
    
     
@@ -200,9 +202,9 @@ textarea{
     background-color:green;
     border-radius:20px;
     height:10px;
-    position:relative;
-    bottom:12px;
-    left:90%;
+    position:absolute;
+    bottom:36%;
+    right:5%;
     width:10px;
 
 
